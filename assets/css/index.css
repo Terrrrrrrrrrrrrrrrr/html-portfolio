@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+  .navbar-nav .nav-item:not(:last-child)::after {
+    color: rgba(255, 255, 255, 0.55);
+    content: "|";
+  }
+
+  .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+  }
+}
